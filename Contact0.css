@@ -1,0 +1,23 @@
+:root {
+    /* Black & White */
+    --000: #000;
+    --111: #fff;
+    /* Backgrounds */
+    --background: #fffaed;
+    --lightbackground: #d3d3d3;
+    --hoverbackground: #aaa;
+    --slider: #505050;
+
+    --headeranimation: linear-gradient(90deg, #55b6bd , #0a087a, #7700C7);;
+}
+
+[data-theme="dark"] {
+    /* Black & White */
+    --000: #FFF;
+    --111: rgb(251, 255, 0);
+    /* Backgrounds */
+    --background: #333;
+    --lightbackground: #444;
+    --hoverbackground: #555;
+    --slider: #000000;
+}
